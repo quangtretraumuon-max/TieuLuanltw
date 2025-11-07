@@ -7,7 +7,7 @@
 
 	if(!isset($_SESSION['admin_id']))
 	{
-		header("location:/FashionShop/admin/login.php/");
+		header("location:/GiaDungShop/admin/login.php/");
 	}
 
-	define ("ROOT", $_SERVER['DOCUMENT_ROOT']."/FashionShop/public/uploads");
+	define ("ROOT", $_SERVER['DOCUMENT_ROOT']."/GiaDungShop/public/uploads");
