@@ -8,7 +8,7 @@ if(isset($_SESSION['name_id'])){
 <section class="checkout spad">
     <div class="container">
         <div class="checkout__form">
-            <h4>Login</h4>
+            <h4>Đăng Nhập</h4>
             <form action="#">
                 <div class="row">
                     <div class="col-lg-12 col-md-12">
@@ -17,11 +17,11 @@ if(isset($_SESSION['name_id'])){
                             <input type="email" name="email" class="email">
                         </div>
                         <div class="checkout__input">
-                            <p>Password<span>*</span></p>
+                            <p>Mật khẩu<span>*</span></p>
                             <input type="password" class="checkout__input__add password" name="password">
                             <p>Bạn chưa có tài khoản ??? <a class="text-decoration-underline" style="text-decoration: underline;" href="dang-ki.php">Đăng ký</a> ngay</p>
                         </div>
-                        <button type="button" class="site-btn" id="login">Login</button>
+                        <button type="button" class="site-btn" id="login">Đăng Nhập</button>
                     </div>
                 </div>
             </form>
