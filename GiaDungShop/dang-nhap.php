@@ -19,7 +19,7 @@ if(isset($_SESSION['name_id'])){
                         <div class="checkout__input">
                             <p>Mật khẩu<span>*</span></p>
                             <input type="password" class="checkout__input__add password" name="password">
-                            <p>Bạn chưa có tài khoản ??? <a class="text-decoration-underline" style="text-decoration: underline;" href="dang-ki.php">Đăng ký</a> ngay</p>
+                            <p>Bạn chưa có tài khoản ?? <a class="text-decoration-underline" style="text-decoration: underline;" href="dang-ki.php">Đăng ký</a> ngay</p>
                         </div>
                         <button type="button" class="site-btn" id="login">Đăng Nhập</button>
                     </div>
