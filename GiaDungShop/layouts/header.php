@@ -26,7 +26,7 @@ if (getInput('keywork') != '') {
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>MiMi shop</title>
-	
+	<link rel="icon" href="<?php echo base_url() ?>public/frontend/img/logoicon.png" type="image/png">
 
 	<!-- Google Font -->
 	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
@@ -102,7 +102,7 @@ if (getInput('keywork') != '') {
 			<div class="row">
 				<div class="col-lg-3 col-md-3">
 					<div class="header__logo">
-						<a href="index.php"><img  src="<?php echo base_url() ?>public/frontend/img/logo1.png" alt=""></a>
+						<a href="index.php"><img height="25" src="<?php echo base_url() ?>public/frontend/img/logo1.png" alt=""></a>
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-6">
